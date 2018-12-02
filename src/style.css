@@ -1,3 +1,65 @@
 body {
-    background: rgb(221, 217, 217);
+    background: rgb(238, 239, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background: rgb(3, 3, 138);
+    height: 40px;
+}
+.header h1 {
+    /* text-align: center; */
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.post {
+    width: 50%;
+    margin-top: 20px;
+    background: #fff;
+    border-color: black;
+    border: 5px;
+    padding: 30px;
+    border-radius: 1%;
+}
+.post p {
+    margin-top: 20px;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.postHeader img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.author h1 {
+    font-weight: bold;
+}
+
+.author p {
+    color: rgb(192, 186, 186);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
